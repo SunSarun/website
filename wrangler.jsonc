@@ -1,4 +1,8 @@
 {
-  "pages_build_output_dir": "dist",
-  "name": "website"
+  "name": "my-spa-project",
+  "compatibility_date": "2026-06-10",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  }
 }
