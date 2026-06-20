@@ -1,5 +1,5 @@
 import { Reveal } from './Reveal';
-import Profile from "profile.jpg";
+import Profile from "../profile.jpg";
 export const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center pt-24 pb-12 px-6 overflow-hidden">
