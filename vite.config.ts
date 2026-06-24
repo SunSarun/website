@@ -1,10 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react' // or vue, svelte, etc.
 
 export default defineConfig({
   plugins: [react()],
-  base: '/website/',
-  server: {
-    host: '0.0.0.0',
-  }
+  base: './', // <--- Add this if your assets are returning 404s
 })
