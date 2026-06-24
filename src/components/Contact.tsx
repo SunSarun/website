@@ -12,19 +12,19 @@ export const Contact = () => {
           Available for selective collaborations // Node: BKK
         </p>
         <div className="flex flex-col items-center gap-8">
-          <a href="mailto:contact@sarun.dev" className="text-2xl md:text-5xl font-bold border-b-2 border-cyan-500/20 hover:border-cyan-400 hover:text-cyan-400 transition-all pb-2 glass-card px-8 py-4 rounded-3xl">
-            contact@sarun.dev
+          <a href="mailto:sun@sarun.dev" className="text-2xl md:text-5xl font-bold border-b-2 border-cyan-500/20 hover:border-cyan-400 hover:text-cyan-400 transition-all pb-2 glass-card px-8 py-4 rounded-3xl">
+            sun@sarun.dev
           </a>
           <div className="flex gap-12 text-[10px] mono uppercase tracking-[0.3em] text-slate-500">
-            <a href="https://sarun.dev" className="hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="https://sarun.dev" className="text-lg hover:text-white transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               Website
             </a>
-            <a href="#" className="hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="https://github.com/SunSarun/" className="text-lg hover:text-white transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-violet-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               Github
             </a>
-            <a href="#" className="hover:text-cyan-400 transition-colors flex items-center gap-2 group">
+            <a href="https://kh.linkedin.com/in/sun-sarun-286a9b375" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               LinkedIn
             </a>

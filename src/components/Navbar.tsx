@@ -44,7 +44,7 @@ export const Navbar = () => {
           <NavLink to="/lab" isHome={isHome} currentPath={location.pathname}>Labs</NavLink>
           <NavLink to="/blog" isHome={isHome} currentPath={location.pathname}>Blog</NavLink>
         </nav>
-        <a href="mailto:contact@sarun.dev" className="hidden sm:block px-6 py-2 text-[12px] border border-cyan-400/30 rounded-full hover:bg-cyan-400/10 hover:border-cyan-400/60 transition-all uppercase tracking-widest bg-white/5">Connect</a>
+        <a href="#contact" className="hidden sm:block px-6 py-2 text-[12px] border border-cyan-400/30 rounded-full hover:bg-cyan-400/10 hover:border-cyan-400/60 transition-all uppercase tracking-widest bg-white/5">Connect</a>
       </div>
     </header>
   );
