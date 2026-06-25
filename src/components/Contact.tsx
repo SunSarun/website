@@ -27,7 +27,16 @@ export const Contact = () => {
             <a href="https://kh.linkedin.com/in/sun-sarun-286a9b375" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               LinkedIn
+            </a> 
+ 	    <a href="https://t.me/sunsarun69/" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
+              <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+              Telegram
             </a>
+             <a href="https://signal.me/#eu/XVip7-wGTQupoV8v5SWEEC9QissuDfo76oUcqSVP0WO44E9ZRtJAG5uUAJ8aQ3ou" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
+              <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+              Signal
+            </a>
+ 
           </div>
         </div>
       </Reveal>
