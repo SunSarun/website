@@ -5,12 +5,9 @@
   "homepage": ".",
   "type": "module",
   "scripts": {
-    "dev:github": "vite --config vite.config.github.ts",
     "dev": "vite --config vite.config.ts",
-    "build:github": "tsc -b && vite build --config vite.config.github.ts",
     "build": "tsc -b && vite build --config vite.config.ts",
     "lint": "eslint .",
-    "preview:github": "vite preview --config vite.config.github.ts",
     "preview": "vite preview --config vite.config.ts"
   },
   "dependencies": {
