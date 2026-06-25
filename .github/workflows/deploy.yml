@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [github]
   workflow_dispatch:
 
 permissions:
@@ -22,10 +22,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 24  # Updated from 20 to silence the deprecation warning
+          node-version: 24
           cache: 'npm'
       - run: npm ci
-      - run: npm run build
+      # Explicitly pointing to your new configuration file
+      - run: npx vite build --config vite.config.github.ts
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
