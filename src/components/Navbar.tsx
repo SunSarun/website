@@ -45,7 +45,7 @@ export const Navbar = () => {
           <a href="https://blog.sarun.dev/" target="_blank" className="hidden md:flex gap-10 text-[12px] uppercase tracking-[0.3em] font-medium text-slate-300">Blog</a>
         </nav>
         <nav >
-          <NavLink to="#contact" hash isHome={isHome} currentPaht={location.pathname} ><span className="hidden sm:block px-6 py-2 text-[12px] border border-cyan-400/30 rounded-full hover:bg-cyan-400/10 hover:border-cyan-400/60 transition-all uppercase tracking-widest bg-white/5">Contact</span></NavLink>
+          <NavLink to="#contact" hash isHome={isHome} currentPath={location.pathname} ><span className="hidden sm:block px-6 py-2 text-[12px] border border-cyan-400/30 rounded-full hover:bg-cyan-400/10 hover:border-cyan-400/60 transition-all uppercase tracking-widest bg-white/5">Contact</span></NavLink>
         </nav>
       </div>
     </header>
