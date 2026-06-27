@@ -16,23 +16,23 @@ export const Contact = () => {
             sun@sarun.dev
           </a>
           <div className="flex gap-12 text-[10px] mono uppercase tracking-[0.3em] text-slate-500">
-            <a href="https://sarun.dev" className="text-lg hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="https://sarun.dev" target="_blank" className="text-lg hover:text-white transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               Website
             </a>
-            <a href="https://github.com/SunSarun/" className="text-lg hover:text-white transition-colors flex items-center gap-2 group">
+            <a href="https://github.com/SunSarun/" target="_blank" className="text-lg hover:text-white transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-violet-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               Github
             </a>
-            <a href="https://kh.linkedin.com/in/sun-sarun-286a9b375" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
+            <a href="https://kh.linkedin.com/in/sun-sarun-286a9b375" target="_blank" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               LinkedIn
             </a> 
- 	    <a href="https://t.me/sunsarun69/" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
+ 	    <a href="https://t.me/sunsarun69/" target="_blank" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               Telegram
             </a>
-             <a href="https://signal.me/#eu/XVip7-wGTQupoV8v5SWEEC9QissuDfo76oUcqSVP0WO44E9ZRtJAG5uUAJ8aQ3ou" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
+             <a href="https://signal.me/#eu/XVip7-wGTQupoV8v5SWEEC9QissuDfo76oUcqSVP0WO44E9ZRtJAG5uUAJ8aQ3ou" target="_blank" className="text-lg hover:text-cyan-400 transition-colors flex items-center gap-2 group">
               <span className="w-1 h-1 rounded-full bg-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               Signal
             </a>

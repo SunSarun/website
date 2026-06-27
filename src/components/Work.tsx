@@ -3,13 +3,13 @@ import { Reveal } from './Reveal';
 export const Work = () => {
   const projects = [
     {
-      title: 'Neural_Dashboard',
+      title: 'HomeLab',
       desc: 'Cognitive telemetry interface for high-frequency data streams.',
       year: '2026',
-      img: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80',
+      img: 'https://breadnet.co.uk/content/images/size/w2000/2025/09/IMG_2012.JPG',
     },
     {
-      title: 'Void_Engine',
+      title: 'Bank-Core-System',
       desc: 'Lightweight 3D rendering pipeline for the modern web.',
       year: '2025',
       img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
@@ -19,7 +19,7 @@ export const Work = () => {
   return (
     <section id="work" className="relative py-32 px-6 max-w-7xl mx-auto">
       <Reveal className="mb-20">
-        <span className="text-cyan-400 mono text-xs tracking-[0.5em] mb-4 block">Archive_Index</span>
+        <span className="text-cyan-400 mono text-xs tracking-[0.5em] mb-4 block">Porfolio</span>
         <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase glow-text">Featured_Deployments</h2>
       </Reveal>
       

@@ -24,17 +24,17 @@ export const Hero = () => {
         </Reveal>
         <Reveal className="active" delay={0.1}>
           <p className="text-cyan-400 mono text-sm md:text-base tracking-[0.4em] uppercase mb-12">
-            Liquid_Interfaces // Cosmic_Architect_v5.0
+            Software Engineer // AI Engineer
           </p>
         </Reveal>
         <Reveal className="active" delay={0.2}>
           <div className="flex flex-wrap justify-center gap-6">
             <a href="#work" className="px-10 py-4 bg-gradient-to-r from-violet-600 to-cyan-500 text-white font-bold rounded-full hover:shadow-[0_0_40px_rgba(139,92,246,0.5)] transition-all uppercase text-sm tracking-widest relative overflow-hidden group">
-              <span className="relative z-10">Access_Archive</span>
+              <span className="relative z-10">Portfolio</span>
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
             </a>
             <a href="#arsenal" className="px-10 py-4 border border-white/10 hover:border-cyan-500/50 backdrop-blur-md rounded-full transition-all uppercase text-sm tracking-widest bg-white/5">
-              Core_Modules
+              Skills
             </a>
           </div>
         </Reveal>

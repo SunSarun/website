@@ -3,25 +3,28 @@ import { Reveal } from './Reveal';
 export const Certifications = () => {
   const certifications = [
     {
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: 'MAR 2026',
-      id: 'ID: AWS-SA-9921',
-      color: 'from-orange-500/20'
+      title: 'Google AI Professional Certificate',
+      issuer: 'Google / Coursera',
+      date: 'March 17, 2026',
+      id: 'GZKU52JCEHF8',
+      color: 'from-orange-500/20',
+      link:'https://coursera.org/share/5bdfb40f5ee09645d2becf709b3a08b0'
     },
     {
-      title: 'Google Cloud Professional Engineer',
-      issuer: 'Google Cloud',
+      title: 'IBM Full Stack Software Developer Professional Certificate',
+      issuer: 'IBM / Coursera',
       date: 'JAN 2026',
       id: 'ID: GCP-PE-4452',
-      color: 'from-blue-500/20'
+      color: 'from-blue-500/20',
+      link:''
     },
     {
-      title: 'Meta Front-End Developer',
+      title: 'Meta React Specialization',
       issuer: 'Meta / Coursera',
       date: 'NOV 2025',
       id: 'ID: META-FE-8812',
-      color: 'from-cyan-500/20'
+      color: 'from-cyan-500/20',
+      link:''
     }
   ];
 
@@ -29,13 +32,13 @@ export const Certifications = () => {
     <section id="certifications" className="relative py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <Reveal className="mb-20">
-          <span className="text-violet-400 mono text-xs tracking-[0.5em] uppercase mb-4 block">Validation_Protocols</span>
+          <span className="text-violet-400 mono text-xs tracking-[0.5em] uppercase mb-4 block">Validation</span>
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase glow-text">Certifications</h2>
         </Reveal>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {certifications.map((cert, i) => (
             <Reveal key={cert.id} delay={i * 0.1}>
+              <a href={cert.link} target="_blank" >
               <div className={`glass-card p-8 rounded-3xl relative overflow-hidden group transition-all duration-500 hover:-translate-y-2`}>
                 <div className={`absolute inset-0 bg-gradient-to-br ${cert.color} to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500`}></div>
                 
@@ -58,6 +61,7 @@ export const Certifications = () => {
                   </div>
                 </div>
               </div>
+              </a>
             </Reveal>
           ))}
         </div>

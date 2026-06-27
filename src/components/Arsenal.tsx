@@ -2,17 +2,17 @@ import { Reveal } from './Reveal';
 
 export const Arsenal = () => {
   const modules = [
-    { id: '01/', title: 'Frontend_Engine', desc: 'React, Next.js, TypeScript, TailwindCSS, Three.js' },
-    { id: '02/', title: 'Backend_Core', desc: 'Node.js, Rust, Go, PostgreSQL, GraphQL' },
-    { id: '03/', title: 'System_Design', desc: 'Figma, Motion Graphics, Shader-Coding, UI/UX' },
-    { id: '04/', title: 'Dev_Ops', desc: 'Docker, AWS, Vercel, CI/CD, Git_Actions' },
+    { id: '01/', title: 'Frontend-Engine', desc: 'React, Next.js, TypeScript, TailwindCSS' },
+    { id: '02/', title: 'Backend_Core', desc: 'Node.js, Rust, Go, PHP, PostgreSQL, GraphQL, Laravel, MySQL, OracleDB' },
+    { id: '03/', title: 'System_Design', desc: 'Figma, 3D-Modeling, Shader-Coding, UI/UX' },
+    { id: '04/', title: 'Dev_Ops', desc: 'Docker, AWS, CI/CD, Git_Actions, Cloudflare, Jankins, Kubernetes, Terraform, Ansible' },
   ];
 
   return (
     <section id="arsenal" className="relative py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <Reveal className="mb-20 text-center">
-          <span className="text-cyan-400 mono text-xs tracking-[0.5em] uppercase mb-4 block">System_Components</span>
+          <span className="text-cyan-400 mono text-xs tracking-[0.5em] uppercase mb-4 block">Skill Set</span>
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase glow-text">Technical_Arsenal</h2>
         </Reveal>
         
