@@ -9,7 +9,7 @@ export const Contact = () => {
           Get_In_<span className="text-cyan-400">Touch</span>
         </h2>
         <p className="text-slate-400 mono text-xs md:text-sm tracking-[0.5em] mb-16 uppercase">
-          Available for selective collaborations // Node: BKK
+          "Ready to work!"
         </p>
         <div className="flex flex-col items-center gap-8">
           <a href="mailto:sun@sarun.dev" className="text-2xl md:text-5xl font-bold border-b-2 border-cyan-500/20 hover:border-cyan-400 hover:text-cyan-400 transition-all pb-2 glass-card px-8 py-4 rounded-3xl">
